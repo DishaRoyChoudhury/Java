@@ -20,9 +20,9 @@ public class Q4 {
             }
             else{
                 int high = arr.length - 1;
-                // call binary search method
+                
                 int result = binary_Search(arr, 0, high, x);
-                // print the result
+                
                 if (result == -1)
                     System.out.println("\nBetter luck next time!");
                 else
